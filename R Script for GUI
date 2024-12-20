@@ -1,0 +1,19 @@
+#Multi-locus Random SNP effect MLM tools for GWAS and GUI
+#October 27, 2021
+#Wang et al. (2020) Genomics, Proteomics, Bioinformatics
+
+
+install.packages("pkgbuild")
+install.packages("devtools")
+library(pkgbuild)
+library(devtools)
+has_rtools()
+rtools_path()
+
+
+
+#Install package (first time use)
+install.packages("mrMLM.GUI")
+
+library(mrMLM.GUI)
+mrMLM.GUI() #to restart the program
